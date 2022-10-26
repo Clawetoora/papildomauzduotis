@@ -1,0 +1,73 @@
+.row {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.col-lg-4 {
+  margin-top: 2em;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clearTemplateBtn {
+  padding: 15px 50px;
+}
+
+/* .switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+} */
+
+.text {
+  font-size: 25px;
+}
+
+.form-switch .form-check-input {
+  width: 7em;
+  height: 2em;
+}
+
+.titleLeft {
+  text-align: left;
+}
+
+.customBtn {
+  --bs-btn-padding-y: 0.8rem;
+  --bs-btn-padding-x: 1.2rem;
+  --bs-btn-font-size: 1rem;
+}
+
+form {
+  text-align: left;
+}
+
+#lighterBtn {
+  --bs-btn-bg: #31b7e2;
+  --bs-btn-border-color: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+svg {
+  fill: #31b7e2;
+}
+
+.formborder {
+  border: none;
+  border-bottom: 1px solid gray;
+  border-radius: 0;
+
+  box-shadow: none;
+}
+
+.formborder:active {
+  border: none;
+}
